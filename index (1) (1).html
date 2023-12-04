@@ -1,0 +1,56 @@
+<!-- kavana.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Resume</title>
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1>KAVANA NS</h1>
+            <p>Web Developer</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showSection('skills')">Skills</a></li>
+                <li><a href="#" onclick="showSection('experience')">Work Experience</a></li>
+                <li><a href="#" onclick="showSection('projects')">Projects</a></li>
+            </ul>
+        </nav>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+            </ul>
+        </section>
+        <section id="experience">
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Web Developer</h3>
+                <p>varccons pvt lmt - Hassan | from 24 to 25</p>
+                <ul>
+                    <li>Developed and maintained web applications.</li>
+                    <li>Collaborated with cross-functional teams to deliver high-quality software.</li>
+                    <li>has major skills as lead analyst etc</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project Name</h3>
+                <p>Description of the project goes here.</p>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

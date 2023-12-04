@@ -1,0 +1,77 @@
+/* kavana.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 30, 255);
+}
+
+.resume-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #494d70;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(180, 149, 149, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+}
+
+header p {
+    color: #666;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 20px;
+    display: none;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.job, .project {
+    margin-bottom: 20px;
+}
+
+.job h3, .project h3 {
+    color: #007bff;
+}
+
+.project p {
+    color: #666;
+}
